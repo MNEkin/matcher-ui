@@ -8,7 +8,7 @@ export class MatcherServiceService {
 
   constructor(private http:HttpClient) { }
 
-  baseApiUrl = "http://localhost:8080/upload";
+  baseApiUrl = "https://polar-sierra-64831.herokuapp.com/upload";
 
   upload(file1: File, file2: File):Observable<any> {
   
